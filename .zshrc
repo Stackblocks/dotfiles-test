@@ -130,7 +130,6 @@ function vi_mode_prompt_info() {
 # Command Aliases
 alias python='python3'
 alias pip='pip3'
-alias dotconfig='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
 # Directory Aliases
 alias enki='cd ~/Projects/Openstax/enki'
