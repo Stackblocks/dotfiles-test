@@ -19,5 +19,5 @@ if [ $? = 0 ]; then
 fi
 
 # checkout dotfiles from repo
-dotfiles checkout
-dotfiles config status.showUntrackedFiles no
+dotconfig checkout
+dotconfig config status.showUntrackedFiles no
