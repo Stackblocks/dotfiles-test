@@ -1,5 +1,5 @@
 #--------------------------------------------------------------------
-# Oh-My-Zsh Boilerplate
+# OH-MY-ZSH BOILERPLATE
 #--------------------------------------------------------------------
 
 # If you come from bash you might have to change your $PATH.
@@ -79,14 +79,14 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 #--------------------------------------------------------------------
-# User configuration
+# USER CONFIGURATION
 #--------------------------------------------------------------------
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='nvim'
 else
-  export EDITOR='nvim'
+  export EDITOR='vim'
 fi
 
 # Vi Mode Improvements
@@ -119,7 +119,7 @@ function vi_mode_prompt_info() {
 }
 
 #--------------------------------------------------------------------
-# Aliases
+# ALIASES
 #--------------------------------------------------------------------
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
@@ -135,11 +135,9 @@ alias pip='pip3'
 alias enki='cd ~/Projects/Openstax/enki'
 alias cnxrec='cd ~/Projects/Openstax/enki/cnx-recipes/'
 alias recipes='cd ~/Projects/Openstax/enki/recipes'
-alias kitchen='cd ~/Projects/Openstax/kitchen'
 
 # File Aliases
 alias zshconfig='nvim ~/.zshrc'
-alias zhsrc='nvim ~/.zshrc'
 alias ohmyzsh='nvim ~/.oh-my-zsh'
 
 # Tmux Aliases
@@ -149,13 +147,11 @@ alias tls='t ls'
 alias tn='t new -t'
 
 #--------------------------------------------------------------------
-# PATHs, Version Managers, etc.
+# PATH, VERSION MANAGERS, ETC.
 #--------------------------------------------------------------------
 
-# init rbenv
-eval "$(rbenv init - zsh)"
-
 # Activate rbenv
+eval "$(rbenv init - zsh)"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 
