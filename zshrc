@@ -130,14 +130,19 @@ function vi_mode_prompt_info() {
 # Command Aliases
 alias python='python3'
 alias pip='pip3'
+alias reload='omz reload'
+alias els='exa -al'
 
 # Directory Aliases
 alias enki='cd ~/Projects/Openstax/enki'
-alias cnxrec='cd ~/Projects/Openstax/enki/cnx-recipes/'
-alias recipes='cd ~/Projects/Openstax/enki/recipes'
+alias cestyles='cd ~/Projects/Openstax/enki/ce-styles/'
+alias cookbook='cd ~/Projects/Openstax/enki/cookbook'
+alias booklist='exa ~/Projects/Openstax/enki/ce-styles/styles/books'
 
 # File Aliases
 alias zshconfig='nvim ~/.zshrc'
+alias vimconfig='nvim ~/.vimrc'
+alias tmuxconfig='nvim ~/.tmux.config'
 alias ohmyzsh='nvim ~/.oh-my-zsh'
 
 # Tmux Aliases
