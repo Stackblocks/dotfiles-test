@@ -141,7 +141,7 @@ alias booklist='exa ~/Projects/Openstax/enki/ce-styles/styles/books'
 
 # File Aliases
 alias zshconfig='nvim ~/.zshrc'
-alias vimconfig='nvim ~/.vimrc'
+alias vimconfig='nvim ~/.config/nvim/init.vim'
 alias tmuxconfig='nvim ~/.tmux.config'
 alias ohmyzsh='nvim ~/.oh-my-zsh'
 
@@ -177,3 +177,5 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Acticate Starship
 eval "$(starship init zsh)"
+
+source /Users/alan/.config/broot/launcher/bash/br
