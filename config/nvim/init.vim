@@ -1,5 +1,5 @@
 """"""""""""""""""""""""""""""""""""
-" VIM-PLUG CONFIG 
+" PLUG 
 """"""""""""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
 
@@ -20,6 +20,37 @@ Plug 'tpope/vim-vinegar'
 
 """PLUGIN ZONE END"""
 call plug#end()
+
+""""""""""""""""""""""""""""""""""""
+" SETS
+""""""""""""""""""""""""""""""""""""
+set backspace=indent,eol,start
+set cmdheight=1
+set colorcolumn=80
+set expandtab
+set exrc
+set guicursor=
+set hidden
+set ignorecase
+set incsearch
+set laststatus=2
+set nobackup
+set noerrorbells
+set nohlsearch
+set noswapfile
+set number
+set relativenumber
+set scrolloff=6
+set shiftround
+set shiftwidth=4
+set showcmd
+set showmatch
+set signcolumn=yes
+set smartcase
+set smartindent
+set tabstop=4 softtabstop=4
+set undodir=~/.vim/undodir
+set undofile
 
 """"""""""""""""""""""""""""""""""""
 " SPECIFIC PLUGIN CONFIGS
