@@ -1,5 +1,5 @@
 """"""""""""""""""""""""""""""""""""
-" PLUG 
+" PLUG ROLL CALL 
 """"""""""""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
 
@@ -53,13 +53,17 @@ set undodir=~/.vim/undodir
 set undofile
 
 """"""""""""""""""""""""""""""""""""
-" SPECIFIC PLUGIN CONFIGS
+" PETIT PLUGIN CONFIGS
 """"""""""""""""""""""""""""""""""""
 " Vim Sneak
 " Enabel Label Mode
 let g:sneak#label = 1
-map f <Plug>Sneak_s
-map F <Plug>Sneak_S
+map <leader>f <Plug>Sneak_f
+map <leader>F <Plug>Sneak_F
+map <leader>t <Plug>Sneak_t
+map <leader>T <Plug>Sneak_T
+map <leader>s <Plug>Sneak_s
+map <leader>S <Plug>Sneak_S
 
 " Dracula Pro
 packadd! dracula_pro
@@ -68,7 +72,7 @@ let g:dracula_colorterm = 0
 colorscheme dracula_pro
 
 """"""""""""""""""""""""""""""""""""
-"" KEY REMAPS
+"" KEYMAPS 
 """"""""""""""""""""""""""""""""""""
 " PIANOROLL ESC
 inoremap kj <esc>
@@ -76,3 +80,8 @@ cnoremap kj <C-C>$
 
 " SET LEADER TO SPACE
 let mapleader=" "
+
+""""""""""""""""""""""""""""""""""""
+" COMMANDS
+""""""""""""""""""""""""""""""""""""
+command! WipeReg for i in range(34,122) | silent! call setreg(nr2char(i), []) | endfor
