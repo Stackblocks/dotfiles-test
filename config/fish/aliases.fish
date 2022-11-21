@@ -1,8 +1,11 @@
 alias .. 'cd ..'
 alias ... 'cd ../..'
 alias booklist 'exa ~/Projects/Openstax/enki/ce-styles/styles/books'
+alias elf 'exa -al'
 alias gf 'git fetch'
+alias gl 'git log'
 alias gp 'git pull'
+alias gch 'git checkout'
 alias jump cdh
 alias t tmux
 alias ta 'tmux attach -t'

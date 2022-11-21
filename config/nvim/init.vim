@@ -5,15 +5,20 @@ call plug#begin('~/.vim/plugged')
 
 """PLUGIN ZONE START"""
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'francoiscabrol/ranger.vim'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'itchyny/lightline.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'justinmk/vim-sneak'
+Plug 'kyazdani42/nvim-web-devicons'
 Plug 'mg979/vim-visual-multi'
 Plug 'mbbill/undotree'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'branch': '0.1.x' }
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'rbgrouleff/bclose.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
@@ -55,6 +60,9 @@ set undofile
 """"""""""""""""""""""""""""""""""""
 " PETIT PLUGIN CONFIGS
 """"""""""""""""""""""""""""""""""""
+" FZF
+nnoremap <leader>p :<C-u>FZF<CR>
+
 " Vim Sneak
 " Enabel Label Mode
 let g:sneak#label = 1

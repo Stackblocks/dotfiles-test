@@ -142,7 +142,7 @@ alias booklist='exa ~/Projects/Openstax/enki/ce-styles/styles/books'
 # File Aliases
 alias zshconfig='nvim ~/.zshrc'
 alias vimconfig='nvim ~/.config/nvim/init.vim'
-alias tmuxconfig='nvim ~/.tmux.config'
+alias tmuxconfig='nvim ~/.tmux.conf'
 alias ohmyzsh='nvim ~/.oh-my-zsh'
 
 # Tmux Aliases
