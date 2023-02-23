@@ -7,6 +7,7 @@ alias gl 'git log'
 alias gp 'git pull'
 alias gch 'git checkout'
 alias jump cdh
+alias ssh-kitty 'kitty +kitten ssh'
 alias t tmux
 alias ta 'tmux attach -t'
 alias tls 'tmux ls'

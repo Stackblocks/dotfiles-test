@@ -132,6 +132,7 @@ alias python='python3'
 alias pip='pip3'
 alias reload='omz reload'
 alias els='exa -al'
+alias ssh-kitty='kitty +kitten ssh'
 
 # Directory Aliases
 alias enki='cd ~/Projects/Openstax/enki'
@@ -144,6 +145,10 @@ alias zshconfig='nvim ~/.zshrc'
 alias vimconfig='nvim ~/.config/nvim/init.vim'
 alias tmuxconfig='nvim ~/.tmux.conf'
 alias ohmyzsh='nvim ~/.oh-my-zsh'
+
+# Git Aliases
+alias gf='git fetch'
+alias gp='git pull'
 
 # Tmux Aliases
 alias t='tmux'
